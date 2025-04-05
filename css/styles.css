@@ -3,7 +3,6 @@ body {
 	background-color: #fff;
 	font-size: 16px;
 	line-height: 1.5;
-	letter-spacing: 0.02em;
 	color: #434455;
 }
 a {
@@ -48,13 +47,14 @@ ul {
 .effective, .basement {
 	background-color: #2e2f42;
 }
-.effective h1 {
+.effective-solutions {
 	font-weight: 700;
 	font-size: 56px;
 	line-height: 1.07;
 	text-align: center;
+	letter-spacing: 0.02em;
 }
-.effective h1, .effective-push {
+.effective-solutions, .effective-push {
 	color: #fff;
 }
 .effective-push {
@@ -64,7 +64,7 @@ ul {
 	cursor: pointer;
 	line-height: 1.5;
 }
-.effective-push:hover {
+.effective-push:hover, .effective-push:focus {
 	background-color: #404BBF;
 
 }
