@@ -4,6 +4,7 @@ body {
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
+	color: #434455;
 }
 a {
 	text-decoration: none;
@@ -17,7 +18,7 @@ ul {
 }
 .baner {
 	font-family: "Raleway", sans-serif;
-	font-weight: 700px;
+	font-weight: 700;
 	font-size: 18px;
 	text-transform: uppercase;
 	line-height: 1.17;
@@ -39,7 +40,8 @@ ul {
 .connection-block {
 	font-style:normal;
 }
-.menu-links:hover, .connection-link:hover {
+.menu-links:hover, .connection-link:hover, .menu-links:focus,
+.connection-link:focus {
 	color: #404bbf;
 }
 /* Effective Solutions for Your Business */
@@ -51,7 +53,6 @@ ul {
 	font-size: 56px;
 	line-height: 1.07;
 	text-align: center;
-	
 }
 .effective h1, .effective-button {
 	color: #fff;
@@ -60,12 +61,8 @@ ul {
 	font-weight: 500;
 	letter-spacing: 0.04em;
 	background-color: #4d5ae5;
-	border-radius: 4px;
-	width: 169px;
-	height: 56px;
 	cursor: pointer;
-	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-	
+	line-height: 1.5;
 }
 .effective-button:hover {
 	background-color: #404bbf;
@@ -76,9 +73,7 @@ ul {
 	font-size: 20px;
 	line-height: 1.2;
 	color: #2e2f42;
-}
-.general-text {
-	color: #434455;
+	letter-spacing: 0.02em;
 }
 /* Our Team */
 .team {
@@ -88,6 +83,12 @@ ul {
 	font-weight: 700;
 	font-size: 36px;
 	line-height: 1.11;
+	text-align: center;
+	letter-spacing: 0.02em;
+	text-transform: capitalize;
+}
+.team-item {
+	background-color: #fff;
 }
 
 /* footer */
