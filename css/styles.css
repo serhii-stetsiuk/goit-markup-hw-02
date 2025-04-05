@@ -54,18 +54,19 @@ ul {
 	line-height: 1.07;
 	text-align: center;
 }
-.effective h1, .effective-button {
+.effective h1, .effective-push {
 	color: #fff;
 }
-.effective-button {
+.effective-push {
 	font-weight: 500;
 	letter-spacing: 0.04em;
 	background-color: #4d5ae5;
 	cursor: pointer;
 	line-height: 1.5;
 }
-.effective-button:hover {
-	background-color: #404bbf;
+.effective-push:hover {
+	background-color: #404BBF;
+
 }
 /* Our advantages */
 .general-title-three {
